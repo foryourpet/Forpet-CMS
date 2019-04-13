@@ -1,0 +1,16 @@
+.venv
+
+.DS_Store
+*.pyc
+.idea
+*.iml
+
+/resources/
+*.sqlite3
+
+/static/css/**/*.css
+!/static/css/style.css
+!/static/css/admin/**/*.css
+
+settings/settings_extra.py
+/fabfile_config.py
